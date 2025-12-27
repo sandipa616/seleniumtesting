@@ -13,10 +13,10 @@ time.sleep(2)
 
 current_date = datetime.now()
 
-# Month index (0–11)
+
 current_month = current_date.month - 1
 
-# %12 logic
+
 next_month = (current_month + 1) % 12
 
 # Year rollover
